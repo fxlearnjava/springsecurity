@@ -35,4 +35,9 @@ public class LoginController {
     public @ResponseBody String gitFix(){
         return "gitFix";
     }
+
+    @RequestMapping("/gitpush")
+    public @ResponseBody String gitpush(){
+        return "gitpush";
+    }
 }
