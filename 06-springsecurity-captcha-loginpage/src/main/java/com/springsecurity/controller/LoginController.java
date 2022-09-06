@@ -24,4 +24,9 @@ public class LoginController {
     public @ResponseBody String helloGit(){
         return "helloGit";
     }
+
+    @RequestMapping("/gitFix")
+    public @ResponseBody String gitFix(){
+        return "gitFix";
+    }
 }
