@@ -40,4 +40,9 @@ public class LoginController {
     public @ResponseBody String gitpush(){
         return "gitpush";
     }
+    
+    @RequestMapping("/gitpull")
+    public @ResponseBody String gitpull(){
+        return "gitpull";
+    }
 }
