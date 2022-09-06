@@ -18,4 +18,10 @@ public class LoginController {
     public @ResponseBody String hello(){
         return "hello";
     }
+
+
+    @RequestMapping("/git")
+    public @ResponseBody String helloGit(){
+        return "helloGit";
+    }
 }
