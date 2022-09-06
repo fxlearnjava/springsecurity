@@ -25,6 +25,12 @@ public class LoginController {
         return "helloGit";
     }
 
+
+    @RequestMapping("/masterTest")
+    public @ResponseBody String masterTest(){
+        return "masterTest";
+    }
+
     @RequestMapping("/gitFix")
     public @ResponseBody String gitFix(){
         return "gitFix";
